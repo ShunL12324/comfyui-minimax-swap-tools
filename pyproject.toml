@@ -1,0 +1,10 @@
+[project]
+name = "comfyui-minimax-swap-tools"
+description = "Helper nodes for MiniMax H3 video swap workflows: parallel subject crop, cached video read/encode, dual-GPU VAE encode, exclusion masks, sparse SAM3 temporal masks."
+version = "0.1.0"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy", "opencv-python"]
+
+[project.urls]
+Repository = "https://github.com/ShunL12324/comfyui-minimax-swap-tools"
